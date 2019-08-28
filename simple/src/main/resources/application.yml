@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: simple_redis
+  redis:
+    lettuce:
+      pool:
+        min-idle: 0
+        max-idle: 8
+    host: localhost
+    password:
+    port: 6379
+    database: 1
+    timeout: 1000
+server:
+  port: 8900
